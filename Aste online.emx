@@ -1016,7 +1016,7 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_4tdysLGmEeum5vyKgBOwMg" type="OperationCompartment"/>
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_4tdysbGmEeum5vyKgBOwMg" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_4tdysrGmEeum5vyKgBOwMg" visible="false" type="StructureCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4tckkbGmEeum5vyKgBOwMg" x="10692" y="528" width="4813" height="4445"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4tckkbGmEeum5vyKgBOwMg" x="10692" y="528" width="4813" height="4709"/>
       </children>
       <children xmi:type="umlnotation:UMLShape" xmi:id="_87PasLGmEeum5vyKgBOwMg" element="_87NlgLGmEeum5vyKgBOwMg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
         <children xmi:type="notation:DecorationNode" xmi:id="_87PasrGmEeum5vyKgBOwMg" type="ImageCompartment">
@@ -1851,6 +1851,20 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nH90MrJtEeuuhquOM81Uow" value="1"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nH90MbJtEeuuhquOM81Uow" value="1"/>
     </ownedAttribute>
+    <ownedOperation xmi:id="_qlwMsLcuEeurXbb9OwlfpA" name="Oggetto">
+      <ownedParameter xmi:id="_5DLfkLcuEeurXbb9OwlfpA" name="nome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_5IEmoLcuEeurXbb9OwlfpA" name="descrizione">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_5Lg8MLcuEeurXbb9OwlfpA" name="anno_produzione">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_5PVFMLcuEeurXbb9OwlfpA" name="prezzo_partenza">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
+    </ownedOperation>
     <ownedOperation xmi:id="_aEaEoLcKEeufMNGphj_jrw" name="avviaProcessoSpedizione"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_hipR4LGmEeum5vyKgBOwMg" name="Asta">
@@ -1935,6 +1949,20 @@
     </ownedAttribute>
     <ownedOperation xmi:id="_H3WJMLcIEeufMNGphj_jrw" name="getMetodoDiPagamento">
       <ownedParameter xmi:id="_LRG6ULcIEeufMNGphj_jrw" name="metodoDiPagamento" type="_Iv63sLJtEeuuhquOM81Uow" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_scEOELcuEeurXbb9OwlfpA" name="aggiungiOggetto">
+      <ownedParameter xmi:id="_vHyNcLcuEeurXbb9OwlfpA" name="nome">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_xFbl4LcuEeurXbb9OwlfpA" name="descrizione">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_x9vt8LcuEeurXbb9OwlfpA" name="anno_produzione">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_yo7Y8LcuEeurXbb9OwlfpA" name="prezzo_partenza">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedParameter>
     </ownedOperation>
     <ownedOperation xmi:id="_oY1Q4LcoEeurXbb9OwlfpA" name="aggiungiOfferta">
       <ownedParameter xmi:id="_saehYLcoEeurXbb9OwlfpA" name="asta" type="_hipR4LGmEeum5vyKgBOwMg"/>
