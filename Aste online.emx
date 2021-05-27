@@ -4352,7 +4352,7 @@
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_3ALiULcIEeufMNGphj_jrw" name="ReceiveOperationEvent3"/>
     <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_E-dwMLcLEeufMNGphj_jrw" name="SendOperationEvent4"/>
     <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_E-dwMbcLEeufMNGphj_jrw" name="ReceiveOperationEvent4"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_qr6dsLvREeuVCMYme9XUeA" name="Modelli">
+    <packagedElement xmi:type="uml:Package" xmi:id="_qr6dsLvREeuVCMYme9XUeA" name="Dominio">
       <eAnnotations xmi:id="_qr7r0LvREeuVCMYme9XUeA" source="uml2.diagrams" references="_qr7r0bvREeuVCMYme9XUeA">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_qr7r0bvREeuVCMYme9XUeA" type="Freeform" name="Main">
           <element xsi:nil="true"/>
