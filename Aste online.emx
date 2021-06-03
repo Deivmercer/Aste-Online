@@ -1631,14 +1631,14 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_M9AelbyyEeuTjaBWFwWhrw" type="Name"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_M9BFoLyyEeuTjaBWFwWhrw" type="Parent"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_M9BFobyyEeuTjaBWFwWhrw" type="AttributeCompartment">
-                <layoutConstraint xmi:type="notation:Ratio" xmi:id="_t9dWUMBYEeuw3cLwLf7rZw" value="0.4589697126585555"/>
+                <layoutConstraint xmi:type="notation:Ratio" xmi:id="_t9dWUMBYEeuw3cLwLf7rZw" value="0.42694451175187786"/>
               </children>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_M9BForyyEeuTjaBWFwWhrw" type="OperationCompartment">
-                <layoutConstraint xmi:type="notation:Ratio" xmi:id="_t9dWUcBYEeuw3cLwLf7rZw" value="0.5410302873414444"/>
+                <layoutConstraint xmi:type="notation:Ratio" xmi:id="_t9dWUcBYEeuw3cLwLf7rZw" value="0.5730554882481221"/>
               </children>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_M9BFo7yyEeuTjaBWFwWhrw" visible="false" type="SignalCompartment"/>
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_M9BFpLyyEeuTjaBWFwWhrw" visible="false" type="StructureCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M9AekbyyEeuTjaBWFwWhrw" x="25239" y="291" height="4865"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M9AekbyyEeuTjaBWFwWhrw" x="25239" y="291" height="5261"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_N1LcsLyyEeuTjaBWFwWhrw" element="_N1JngLyyEeuTjaBWFwWhrw" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_N1LcsryyEeuTjaBWFwWhrw" type="ImageCompartment">
@@ -2573,7 +2573,7 @@
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_ouEDVLy1EeuTjaBWFwWhrw" type="ToMultiplicityLabel" element="_ot_K0Ly1EeuTjaBWFwWhrw">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_ouEDVry1EeuTjaBWFwWhrw" type="ToMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_ouEDVby1EeuTjaBWFwWhrw" x="-674" y="297"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ouEDVby1EeuTjaBWFwWhrw" x="39" y="329"/>
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_ouEDV7y1EeuTjaBWFwWhrw" type="ToRoleLabel" element="_ot_K0Ly1EeuTjaBWFwWhrw">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_ouEqYLy1EeuTjaBWFwWhrw" type="ToRole"/>
@@ -2723,7 +2723,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_UREv1ry3EeuTjaBWFwWhrw" type="FromConstraintCompartment"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_UREv1by3EeuTjaBWFwWhrw" y="1058"/>
           </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_URC6oby3EeuTjaBWFwWhrw" points="[720, 2380, -3121, 3597]$[720, 2892, -3121, 4109]$[3326, 2892, -515, 4109]$[3326, -449, -515, 768]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_URC6oby3EeuTjaBWFwWhrw" points="[720, 2578, -3121, 3993]$[720, 3090, -3121, 4505]$[3326, 3090, -515, 4505]$[3326, -647, -515, 768]"/>
         </edges>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_fZxikLy3EeuTjaBWFwWhrw" element="_fZl8YLy3EeuTjaBWFwWhrw" source="_QPnTILvTEeuVCMYme9XUeA" target="_wrLq4Ly1EeuTjaBWFwWhrw" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_fZyJoLy3EeuTjaBWFwWhrw" type="NameLabel">
@@ -3181,7 +3181,7 @@
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_qdqT8r6-EeuyfIXvBLt5ow" type="ToMultiplicityLabel" element="_qdlbcL6-EeuyfIXvBLt5ow">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_qdqT9L6-EeuyfIXvBLt5ow" type="ToMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_qdqT876-EeuyfIXvBLt5ow" y="396"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_qdqT876-EeuyfIXvBLt5ow" x="-595" y="231"/>
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_qdqT9b6-EeuyfIXvBLt5ow" type="ToRoleLabel" element="_qdlbcL6-EeuyfIXvBLt5ow">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_qdq7AL6-EeuyfIXvBLt5ow" type="ToRole"/>
@@ -4622,6 +4622,7 @@
         <ownedOperation xmi:id="_unWn4MBYEeuw3cLwLf7rZw" name="aggiungi_offerta">
           <ownedParameter xmi:id="_yvJjsMBYEeuw3cLwLf7rZw" name="offerta" type="_wrJ1sLy1EeuTjaBWFwWhrw"/>
         </ownedOperation>
+        <ownedOperation xmi:id="_ES1ZkMROEeuPc6y-sHyGAA" name="rimuovi_offerta" visibility="private"/>
         <ownedOperation xmi:id="_aiil8L68EeuyfIXvBLt5ow" name="add_property_listener"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_N1JngLyyEeuTjaBWFwWhrw" name="Oggetto">
@@ -5582,7 +5583,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_KnvRwsOAEeuoN9o_yET1sQ" type="Stereotype"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_KnvRw8OAEeuoN9o_yET1sQ" type="TransitionLabel"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_Knv40MOAEeuoN9o_yET1sQ" type="Triggers"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KnvRwcOAEeuoN9o_yET1sQ" y="-186"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KnvRwcOAEeuoN9o_yET1sQ" x="60" y="-338"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KnuqscOAEeuoN9o_yET1sQ" points="[1308, 21, -2339, 129]$[3614, 21, -33, 129]"/>
             <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Kn6Q4MOAEeuoN9o_yET1sQ" id="(0.05370650529500756,0.3591682419659735)"/>
@@ -5632,7 +5633,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_4XgmNMOAEeuoN9o_yET1sQ" type="Stereotype"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_4XgmNcOAEeuoN9o_yET1sQ" type="TransitionLabel"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_4XhNQMOAEeuoN9o_yET1sQ" type="Triggers"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XgmM8OAEeuoN9o_yET1sQ" y="-186"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4XgmM8OAEeuoN9o_yET1sQ" x="-40" y="-311"/>
             </children>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4XgmMcOAEeuoN9o_yET1sQ" points="[-7, 9, -207, 1]$[130, 9, -70, 1]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4XjpgMOAEeuoN9o_yET1sQ" id="(0.9947049924357034,0.44706994328922495)"/>
@@ -5692,13 +5693,13 @@
           </entry>
           <exit xmi:type="uml:OpaqueBehavior" xmi:id="_KVBHEMEwEeuWIMKmvvyZpQ" name="Uscita">
             <language></language>
-            <body>Viene ricevuta un offerta o l'asta viene chiusa</body>
+            <body>Viene ricevuta un'offerta o l'asta viene chiusa</body>
           </exit>
         </subvertex>
         <subvertex xmi:type="uml:State" xmi:id="_-MwfkMCREeuxjq5rq23bFg" name="Offerta ricevuta">
           <entry xmi:type="uml:OpaqueBehavior" xmi:id="_j3_AcMEvEeuWIMKmvvyZpQ" name="Ingresso">
             <language></language>
-            <body>Viene aggiunta una nuova offerta</body>
+            <body>Viene ricevuta un'offerta</body>
           </entry>
           <exit xmi:type="uml:OpaqueBehavior" xmi:id="_xvI9gMEvEeuWIMKmvvyZpQ" name="Uscita">
             <language></language>
@@ -5706,7 +5707,7 @@
           </exit>
           <doActivity xmi:type="uml:OpaqueBehavior" xmi:id="_qIANAMEvEeuWIMKmvvyZpQ" name="Esegui">
             <language></language>
-            <body>Aggiunge l'offerta alla lista di offerte</body>
+            <body>L'offerta viene aggiunta alla lista di offerte</body>
           </doActivity>
         </subvertex>
         <subvertex xmi:type="uml:State" xmi:id="_F0r6QMCSEeuxjq5rq23bFg" name="Asta chiusa">
@@ -5727,7 +5728,7 @@
           </entry>
           <exit xmi:type="uml:OpaqueBehavior" xmi:id="_4-LD8MOIEeuoN9o_yET1sQ" name="Uscita">
             <language></language>
-            <body>Ritorna l'esito del tentativo di addebito</body>
+            <body>Se l'addebito ha esito positivo passa alla spedizione, altrimenti l'offerta più alta viene rimossa e si ritenta con la successiva</body>
           </exit>
           <doActivity xmi:type="uml:OpaqueBehavior" xmi:id="_4SS1YMOIEeuoN9o_yET1sQ" name="Esegui">
             <language></language>
@@ -5737,9 +5738,12 @@
         <subvertex xmi:type="uml:State" xmi:id="_hpwjsMCSEeuxjq5rq23bFg" name="Effettua spedizione">
           <entry xmi:type="uml:OpaqueBehavior" xmi:id="_6SSXMMOIEeuoN9o_yET1sQ" name="Ingresso">
             <language></language>
-            <body>L'addebito è andato a buon fine</body>
+            <body>L'addebito ha avuto esito positivo</body>
           </entry>
-          <exit xmi:type="uml:OpaqueBehavior" xmi:id="_8Ec4YMOIEeuoN9o_yET1sQ" name="Uscita"/>
+          <exit xmi:type="uml:OpaqueBehavior" xmi:id="_8Ec4YMOIEeuoN9o_yET1sQ" name="Uscita">
+            <language></language>
+            <body>Termina</body>
+          </exit>
           <doActivity xmi:type="uml:OpaqueBehavior" xmi:id="_7JXJIMOIEeuoN9o_yET1sQ" name="Esegui">
             <language></language>
             <body>Viene avviato il processo di spedizione per gli oggetti dell'asta</body>
