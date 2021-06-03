@@ -9,25 +9,27 @@ import java.util.TreeSet;
  */
 public class Asta {
 
-    String nome;
-    Date data_inizio;
-    int durata;
-    boolean aperta;
-    List<Oggetto> oggetti;
-    TreeSet<Offerta> offerte;
+    private String nome;
+    private Date data_inizio;
+    private int durata;
+    private boolean aperta;
+    private List<Oggetto> oggetti;
+    private TreeSet<Offerta> offerte;
 
     /**
      * Crea una nuova asta.
      * @param nome          Il nome dell'asta
      * @param data_inizio   La data in cui inizierà l'asta
      * @param durata        La durata (in ore) dell'asta
+     * @param oggetti       La lista di oggetti da mettere all'asta
      */
-    public Asta(String nome, Date data_inizio, int durata) {
-
+    public Asta(String nome, Date data_inizio, int durata, List<Oggetto> oggetti) {
+        
         this.nome = nome;
         this.data_inizio = data_inizio;
         this.durata = durata;
-        aperta = false;
+        this.aperta = false;
+        this.oggetti = oggetti;
         String messaggio = "E' stata creata una nuova asta: " + this.nome + ".\n"
                          + "Verra' aperta il " + data_inizio.toString() + " e sarenno disponibili i seguenti oggetti:\n";
         for (Oggetto oggetto : oggetti) {
@@ -48,7 +50,7 @@ public class Asta {
 
     /**
      * Chiude l'asta, fa partire il processo di pagamento al vincitore ed il processo di spedizione per gli oggetti.
-     * Se non è stata effettuata nessuna offerta l'asta viene semplicemente chiusa.
+     * Se non è stata effettuata nessuna offerta, l'asta viene semplicemente chiusa.
      */
     public void chiudi() {
 
@@ -62,20 +64,28 @@ public class Asta {
                     // Salva il risultato...
                 }
             } else {
-                // Se il pagamento non va a buon fine, rimuovo l'offerta e riprovo con la seconda più alta
-                offerte.remove(offerte.first());
+                // Se il pagamento non va a buon fine, rimuovo l'offerta vincitrice e riprovo con la seconda offerta più alta.
+                rimuoviOfferta();
                 chiudi();
             }
         }
     }
 
     /**
-     * Aggiunge un offerta alla lista ordinata.
+     * Aggiunge un'offerta alla lista ordinata.
      * @param offerta   La nuova offerta
      */
     public void aggiungiOfferta(Offerta offerta) {
 
         offerte.add(offerta);
+    }
+
+    /**
+     * Rimuove l'offerta più alta. Da usare quando l'addebito al vincitore non va a buon fine per far proseguire il processo di chiusura.
+     */
+    private void rimuoviOfferta() {
+
+        offerte.remove(offerte.first);
     }
 
     /**
